@@ -1,5 +1,5 @@
 import React from 'react';
-import { Btn} from '../components/btn';
+import { Btn} from './btn';
 import { storiesOf } from '@storybook/react';
 
 
