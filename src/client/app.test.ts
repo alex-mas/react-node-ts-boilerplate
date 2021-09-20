@@ -1,10 +1,10 @@
 import 'expect-puppeteer'
-describe('Google', () => {
+describe('basic test', () => {
   beforeAll(async () => {
     await page.goto('http://localhost:3000');
   })
 
-  it('should display "google" text on page', async () => {
+  it('The title of the page should be "Title"', async () => {
     await expect(await page.title()).toMatch('Title');
   })
 })
